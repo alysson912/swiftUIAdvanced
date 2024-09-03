@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4B3B78082C87AB4A00D0FF59 /* advancedProjectBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B78072C87AB4A00D0FF59 /* advancedProjectBootcampApp.swift */; };
-		4B3B780A2C87AB4A00D0FF59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B78092C87AB4A00D0FF59 /* ContentView.swift */; };
 		4B3B780C2C87AB4E00D0FF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B780B2C87AB4E00D0FF59 /* Assets.xcassets */; };
 		4B3B780F2C87AB4E00D0FF59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B780E2C87AB4E00D0FF59 /* Preview Assets.xcassets */; };
+		4B3B78172C87ABE900D0FF59 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B78162C87ABE900D0FF59 /* ViewModifierBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B3B78042C87AB4A00D0FF59 /* advancedProjectBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = advancedProjectBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3B78072C87AB4A00D0FF59 /* advancedProjectBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advancedProjectBootcampApp.swift; sourceTree = "<group>"; };
-		4B3B78092C87AB4A00D0FF59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B3B780B2C87AB4E00D0FF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B3B780E2C87AB4E00D0FF59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B3B78162C87ABE900D0FF59 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				4B3B78072C87AB4A00D0FF59 /* advancedProjectBootcampApp.swift */,
-				4B3B78092C87AB4A00D0FF59 /* ContentView.swift */,
+				4B3B78152C87ABC200D0FF59 /* Aulas */,
 				4B3B780B2C87AB4E00D0FF59 /* Assets.xcassets */,
 				4B3B780D2C87AB4E00D0FF59 /* Preview Content */,
 			);
@@ -65,6 +65,22 @@
 				4B3B780E2C87AB4E00D0FF59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B3B78152C87ABC200D0FF59 /* Aulas */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B78182C87B26C00D0FF59 /* 01 */,
+			);
+			path = Aulas;
+			sourceTree = "<group>";
+		};
+		4B3B78182C87B26C00D0FF59 /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B78162C87ABE900D0FF59 /* ViewModifierBootcamp.swift */,
+			);
+			path = 01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3B780A2C87AB4A00D0FF59 /* ContentView.swift in Sources */,
+				4B3B78172C87ABE900D0FF59 /* ViewModifierBootcamp.swift in Sources */,
 				4B3B78082C87AB4A00D0FF59 /* advancedProjectBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
